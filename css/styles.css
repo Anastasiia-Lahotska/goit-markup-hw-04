@@ -111,7 +111,11 @@ button {
         color: #404BBF
 }
 
-.header-menu-link:hover::after {
+.current {
+        color: #404BBF;
+}
+
+.current::after {
         content: '';
         position: absolute;
         left: 0;
